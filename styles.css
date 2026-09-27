@@ -110,3 +110,26 @@ footer {
   color: var(--text-muted);
   font-size: 0.85rem;
 }
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 3px solid var(--primary);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-3px);
+}
+
+.service-card svg {
+  color: var(--secondary);
+  margin-bottom: 0.8rem;
+}
