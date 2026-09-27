@@ -133,3 +133,27 @@ footer {
   color: var(--secondary);
   margin-bottom: 0.8rem;
 }
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  background: var(--bg-card);
+  padding: 1.2rem 1.8rem;
+  border-radius: 10px;
+  gap: 1.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.step-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary);
+}
