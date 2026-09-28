@@ -235,3 +235,27 @@ footer {
   font-size: 0.85rem;
   font-weight: 600;
 }
+
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+}
+
+.tech-box {
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.tech-box:hover {
+  border-color: var(--secondary);
+}
+
+.tech-box h4 {
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+}
